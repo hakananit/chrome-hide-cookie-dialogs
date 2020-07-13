@@ -7,4 +7,4 @@ Chrome extension that hides the possible cookie dialogs on any web page.
 - Download the source code and extract it.
 - Navigate to ´chrome://extensions/´.
 - Click ´load unpacked´ and select the extracted folder location.
-- :tada
+- Start using it! It's active for all the webpages by default.
