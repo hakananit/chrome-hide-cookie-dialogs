@@ -10,8 +10,11 @@
         }
 
         function hideDialog() {
-            let maxIndex = maxZIndex();
-            (arr.find(a => parseFloat(window.getComputedStyle(a).zIndex) === maxIndex)).setAttribute("style", "display:none");
+            const maxIndex = maxZIndex();
+            const element = (arr.find(a => parseFloat(window.getComputedStyle(a).zIndex) === maxIndex));
+            if (Array.from(element).filter(a => a.textContent.includes("cookie"))) {
+                element.setAttribute("style", "display:none");
+            }
         }
         hideDialog();
     })();
