@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "page_action": {
     "default_icon": {
-      "48": "/images/download_image48.png"
+      "48": "/images/app_image48.png"
     }
   },
   "permissions": [
@@ -22,6 +22,6 @@
     }
   ],
   "icons": {
-    "48": "/images/download_image48.png"
+    "48": "/images/app_image48.png"
   }
 }
